@@ -1,0 +1,70 @@
+#AddPostForm label input {
+	background-color: rgb(27, 112, 137);
+	border: 0;
+	width: 100px;
+	height: 30px;
+	padding: 0 20px;
+	margin: 20px;
+	font-size: 18px;
+	border-radius: 10px;
+	color: #fff;
+}
+#AddPostForm label {
+	border: 0;
+	padding: 0 20px;
+	font-size: 18px;
+	border-radius: 10px;
+	color: rgb(27, 112, 137);
+}
+#AddPostForm input::placeholder {
+	color: rgba(255, 255, 0.5);
+}
+#AddPostForm input:focus {
+	outline: none;
+}
+#AddPostForm button:focus {
+	outline: none;
+}
+#AddPostForm input[type='submit'] {
+	height: 50px;
+	width: 80px;
+	border-radius: 10px;
+	border: 0;
+	background-color: rgb(202, 156, 24);
+	cursor: pointer;
+	font-weight: bolder;
+	color: #fff;
+}
+.PostContainer div ul li {
+	font-family: Arial, Helvetica, sans-serif;
+	background: white;
+	border-radius: 5px;
+	overflow-y: auto;
+	border-style: solid;
+	background-color: rgb(202, 156, 24);
+
+	padding: 10px;
+	text-align: center;
+}
+.PostContainer div ul {
+	border-style: solid;
+	border-radius: 10px;
+	background-color: lightblue;
+	padding: 10px;
+}
+.PostContainer button {
+	height: 30px;
+	width: 50%;
+	margin: -20px -15%;
+	position: relative;
+	top: 50%;
+	left: 40%;
+	margin-bottom: 10px;
+	border: 0;
+	background-color: rgba(63, 151, 219, 0.86);
+	cursor: pointer;
+	font-weight: bolder;
+	color: #fff;
+	border-radius: 10px 90px;
+	margin-top: 15px;
+}

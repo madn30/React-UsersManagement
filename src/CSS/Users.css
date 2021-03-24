@@ -1,0 +1,110 @@
+#UserAddAndSearch input {
+	background-color: rgb(27, 112, 137);
+	border: 0;
+	width: 200px;
+	height: 50px;
+	padding: 0 20px;
+	margin: 20px;
+	font-size: 18px;
+	border-radius: 10px;
+	color: #fff;
+}
+#UserAddAndSearch input::placeholder {
+	color: rgba(255, 255, 0.5);
+}
+#UserAddAndSearch input:focus {
+	outline: none;
+}
+#UserAddAndSearch button:focus {
+	outline: none;
+}
+#UserAddAndSearch button {
+	height: 50px;
+	width: 80px;
+	border-radius: 5px;
+	border: 0;
+	background-color: rgb(202, 156, 24);
+	cursor: pointer;
+	font-weight: bolder;
+	color: #fff;
+}
+#UserAddAndSearch label {
+	color: #bf07ac;
+	font-size: large;
+	margin-left: 20px;
+}
+.WrapComp {
+	background-color: #3f3160;
+	min-height: 500px;
+	width: 450px;
+	margin: 40px auto;
+	border-radius: 30px;
+	flex-direction: column;
+	height: 50%;
+}
+.Id-Lable-Pressed {
+	background-color: orange;
+	text-align: center;
+
+	margin-bottom: 5px;
+}
+.Id-Lable-NotPressed {
+	text-align: center;
+	margin-bottom: 30px;
+	color: #fff;
+	width: 350px;
+	background-color: #bf07ac;
+	height: 50px;
+	margin: 20px auto;
+	border-radius: 10px;
+	height: auto;
+}
+
+.AddComp {
+	width: 50%;
+	justify-content: center;
+	display: flex;
+	/* align-items: center; */
+	margin-top: 30%;
+}
+.UserAddContainer {
+	text-align: center;
+	color: #fff;
+	margin: 20px auto;
+	border-radius: 70px;
+	margin-top: 20%;
+	background-color: #3f3160;
+
+	width: 400px;
+
+	flex-direction: column;
+	height: 50%;
+}
+#AddUserForm input {
+	border: 0;
+	width: 100px;
+	height: 10pxpx;
+	margin: 20px;
+	border-radius: 10px;
+	color: red;
+}
+#AddUserForm input[type='submit'] {
+	height: 50px;
+	width: 80px;
+	border-radius: 5px;
+	border: 0;
+	background-color: rgb(202, 156, 24);
+	cursor: pointer;
+	font-weight: bolder;
+	color: #fff;
+	transform: translateY(-50%);
+}
+
+.SearchAndAddButton {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+.ContainerListItem {
+	display: flex;
+}
